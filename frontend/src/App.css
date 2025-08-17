@@ -1,0 +1,99 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.app {
+  width: 100%;
+  max-width: 500px;
+}
+
+.app-header {
+  background: linear-gradient(135deg, #4f46e5, #6d28d9);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-radius: 0 0 20px 20px;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.app-header p {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Container */
+.item-list-container {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  margin-top: -1rem;
+}
+
+/* Form at Top */
+.item-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.item-form input {
+  flex: 1;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.item-form input:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+
+.item-form button {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 0 1.2rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.item-form button:hover {
+  background: #4338ca;
+}
+
+/* Item Cards */
+.item-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item-card {
+  background: #f0f4ff;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.empty-text {
+  text-align: center;
+  color: #888;
+  font-size: 0.95rem;
+}
